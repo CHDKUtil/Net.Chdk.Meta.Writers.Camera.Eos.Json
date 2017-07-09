@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Writers.Camera.Eos.Json", "Net.Chdk.Meta.Writers.Camera.Eos.Json.csproj", "{F7437581-F379-4F4C-97C5-BEE7C20A46DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Camera.Eos.Json", "Net.Chdk.Meta.Writers.Camera.Eos.Json.csproj", "{F7437581-F379-4F4C-97C5-BEE7C20A46DC}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Net.Chdk.Shared", "..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.shproj", "{83C6A77C-3286-4F5F-B628-3B971097AD05}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Camera.Json", "..\..\..\Net.Chdk.Meta.Writers.Camera.Json\src\Net.Chdk.Meta.Writers.Camera.Json\Net.Chdk.Meta.Writers.Camera.Json.csproj", "{69C2885D-831A-4F40-B741-06A7EE68C746}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Camera.Eos.Core", "..\..\..\Net.Chdk.Meta.Writers.Camera.Eos.Core\src\Net.Chdk.Meta.Writers.Camera.Eos.Core\Net.Chdk.Meta.Writers.Camera.Eos.Core.csproj", "{639D1163-2C31-4E18-8A2D-75414EDD56C8}"
 EndProject
@@ -18,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Model.Camera", "..\..\..\Net.Chdk.Meta.Model.Camera\src\Net.Chdk.Meta.Model.Camera\Net.Chdk.Meta.Model.Camera.csproj", "{10BA5CEA-2252-47D3-AAED-01C93CC8BA4A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Json", "..\..\..\Net.Chdk.Json\src\Net.Chdk.Json\Net.Chdk.Json.csproj", "{BC3C0D74-5A68-4791-BE4B-8B2BC724C0EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Json", "..\..\..\Net.Chdk.Meta.Writers.Json\src\Net.Chdk.Meta.Writers.Json\Net.Chdk.Meta.Writers.Json.csproj", "{C75A4CF6-412E-42BA-879E-72A597280DA6}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -35,10 +35,6 @@ Global
 		{F7437581-F379-4F4C-97C5-BEE7C20A46DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7437581-F379-4F4C-97C5-BEE7C20A46DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7437581-F379-4F4C-97C5-BEE7C20A46DC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{69C2885D-831A-4F40-B741-06A7EE68C746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69C2885D-831A-4F40-B741-06A7EE68C746}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69C2885D-831A-4F40-B741-06A7EE68C746}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69C2885D-831A-4F40-B741-06A7EE68C746}.Release|Any CPU.Build.0 = Release|Any CPU
 		{639D1163-2C31-4E18-8A2D-75414EDD56C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{639D1163-2C31-4E18-8A2D-75414EDD56C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{639D1163-2C31-4E18-8A2D-75414EDD56C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -59,6 +55,10 @@ Global
 		{BC3C0D74-5A68-4791-BE4B-8B2BC724C0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC3C0D74-5A68-4791-BE4B-8B2BC724C0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC3C0D74-5A68-4791-BE4B-8B2BC724C0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75A4CF6-412E-42BA-879E-72A597280DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75A4CF6-412E-42BA-879E-72A597280DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75A4CF6-412E-42BA-879E-72A597280DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75A4CF6-412E-42BA-879E-72A597280DA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
