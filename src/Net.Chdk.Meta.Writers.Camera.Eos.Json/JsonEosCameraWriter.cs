@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Net.Chdk.Meta.Writers.Camera.Eos.Json
 {
-    public sealed class JsonEosCameraWriter : JsonCameraWriter, IEosCameraWriter
+    sealed class JsonEosCameraWriter : JsonCameraWriter, IEosCameraWriter
     {
         public void WriteCameras(string path, IDictionary<string, EosCameraData> cameras)
         {
